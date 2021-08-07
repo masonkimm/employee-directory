@@ -1,0 +1,11 @@
+input {
+  width: 60%;
+}
+
+.tags {
+  padding: 1rem;
+}
+.tags button {
+  padding: 1rem;
+  margin: 0 1rem;
+}

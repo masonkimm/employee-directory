@@ -1,0 +1,12 @@
+input {
+  display: flex;
+  align-items: flex-start;
+  width: 95%;
+  padding: 1rem;
+  border: none;
+  /* border-bottom: 1px solid gray;- */
+  outline: none;
+  font-size: 17px;
+  font-weight: lighter;
+  font-family: 'Raleway', sans-serif;
+}

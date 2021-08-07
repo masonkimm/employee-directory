@@ -1,9 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(119, 117, 117);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  max-height: 80vh;
+  min-height: 80vh;
+  max-width: 60vw;
+  overflow-y: scroll;
+  border: 1px solid black;
+  width: 100%;
+  background-color: white;
+  border-radius: 17px;
+  /* align-items: center; */
+}
+.container::-webkit-scrollbar {
+  display: none;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 7vmin;
+  position: fixed;
+  right: 0;
+  bottom: 0;
   pointer-events: none;
 }
 
@@ -34,5 +63,18 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 600px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 5rem;
   }
 }
