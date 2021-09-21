@@ -10,6 +10,7 @@ export default function Employee() {
   const [record, setRecord] = useState([]);
   const [show, setShow] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
+  // eslint-disable-next-line
   const [tags, setTags] = useState([]);
 
   useEffect(() => {
@@ -50,13 +51,9 @@ export default function Employee() {
     e.preventDefault();
     const newTag = e.target.tagInput.value;
     const employeeId = e.target.id - 1;
-    console.log('newTag:', newTag);
-    console.log('empID:', employeeId);
 
     const employeeTags = [...record];
     employeeTags[employeeId].tag.push(newTag);
-    console.log(record);
-    console.log(employeeTags);
 
     setTags((tags) => ({
       ...tags,

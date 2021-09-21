@@ -18,10 +18,6 @@ export default class NewEmployee extends Component {
   };
 
   render = () => {
-    return (
-      <>
-        <h1>hi</h1>
-      </>
-    );
+    return <>{/* <h1>hi</h1> */}</>;
   };
 }

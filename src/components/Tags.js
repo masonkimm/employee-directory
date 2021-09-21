@@ -9,7 +9,7 @@ export default function Tags({ addTag, employee }) {
     return tag;
   };
   return (
-    <>
+    <div className="Tags">
       <form
         id={employee.id}
         onSubmit={(e) => {
@@ -17,9 +17,14 @@ export default function Tags({ addTag, employee }) {
           addTag(e);
         }}
       >
-        <input type="text" placeholder="Add a tag" name="tagInput" />
+        <input
+          type="text"
+          placeholder="Add a tag"
+          name="tagInput"
+          id="Tag__input"
+        />
         <div className="tags">{displayTags(employee.tag)}</div>
       </form>
-    </>
+    </div>
   );
 }

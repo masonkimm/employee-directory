@@ -1,10 +1,10 @@
-input {
+.SearchInput input {
   display: flex;
-  align-items: flex-start;
-  width: 95%;
+  /* text-align: center; */
+  width: 100%;
   padding: 1rem;
   border: none;
-  /* border-bottom: 1px solid gray;- */
+  border-bottom: 1px solid gray;
   outline: none;
   font-size: 17px;
   font-weight: lighter;

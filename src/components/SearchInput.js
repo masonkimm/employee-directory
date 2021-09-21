@@ -3,7 +3,7 @@ import './SearchInput.css';
 
 export default function SearchInput({ filterName }) {
   return (
-    <div>
+    <div className="SearchInput">
       <input
         type="text"
         placeholder="Search for Student"

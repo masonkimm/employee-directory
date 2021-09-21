@@ -1,5 +1,9 @@
-input {
-  width: 60%;
+.Tags #Tag__input {
+  width: 40%;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  margin-top: 1rem;
 }
 
 .tags {
