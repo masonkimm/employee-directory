@@ -7,7 +7,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
+  height: fit-content;
   justify-content: space-between;
   align-items: center;
   background-color: rgb(119, 117, 117);

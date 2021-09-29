@@ -6,7 +6,7 @@ export default function SearchInput({ filterName }) {
     <div className="SearchInput">
       <input
         type="text"
-        placeholder="Search for Student"
+        placeholder="Search for Employee"
         onChange={(e) => {
           e.preventDefault();
           filterName(e);
